@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700&subset=cyrillic');
+
+@import "main.css";
+
+@import "icons.css";
+@import "header.css";
+@import "product.css";
+@import "footer.css";
+
+@import "slider.css";
+@import "tabs.css";

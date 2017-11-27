@@ -1,0 +1,144 @@
+.sprite {
+    background-image: url(../img/ico/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+.sprite-arrow_left {
+    width: 38px;
+    height: 65px;
+    background-position: -2px -2px;
+}
+
+.sprite-arrow_right {
+    width: 38px;
+    height: 65px;
+    background-position: -44px -2px;
+}
+
+.sprite-clock {
+    width: 14px;
+    height: 14px;
+    background-position: -86px -2px;
+}
+
+.sprite-clock2 {
+    width: 12px;
+    height: 12px;
+    background-position: -104px -2px;
+}
+
+.sprite-clock2_color {
+    width: 25px;
+    height: 35px;
+    background-position: -120px -2px;
+}
+
+.sprite-compare {
+    width: 34px;
+    height: 28px;
+    background-position: -149px -2px;
+}
+
+.sprite-compare_color {
+    width: 43px;
+    height: 35px;
+    background-position: -187px -2px;
+}
+
+.sprite-dot_blue {
+    width: 9px;
+    height: 9px;
+    background-position: -234px -2px;
+}
+
+.sprite-dot_green {
+    width: 9px;
+    height: 9px;
+    background-position: -247px -2px;
+}
+
+.sprite-heart {
+    width: 32px;
+    height: 28px;
+    background-position: -260px -2px;
+}
+
+.sprite-heart_color {
+    width: 40px;
+    height: 35px;
+    background-position: -296px -2px;
+}
+
+.sprite-kievstar {
+    width: 13px;
+    height: 14px;
+    background-position: -340px -2px;
+}
+
+.sprite-lifecell {
+    width: 14px;
+    height: 15px;
+    background-position: -357px -2px;
+}
+
+.sprite-mail {
+    width: 39px;
+    height: 35px;
+    background-position: -375px -2px;
+}
+
+.sprite-mail2 {
+    width: 13px;
+    height: 9px;
+    background-position: -418px -2px;
+}
+
+.sprite-map {
+    width: 32px;
+    height: 31px;
+    background-position: -435px -2px;
+}
+
+.sprite-phone {
+    width: 15px;
+    height: 11px;
+    background-position: -471px -2px;
+}
+
+.sprite-phone2 {
+    width: 14px;
+    height: 12px;
+    background-position: -490px -2px;
+}
+
+.sprite-pin {
+    width: 11px;
+    height: 15px;
+    background-position: -508px -2px;
+}
+
+.sprite-search {
+    width: 49px;
+    height: 32px;
+    background-position: -523px -2px;
+}
+
+.sprite-star {
+    width: 16px;
+    height: 16px;
+    background-position: -576px -2px;
+}
+
+.sprite-user {
+    width: 23px;
+    height: 23px;
+    background-position: -596px -2px;
+}
+
+.sprite-vodafone {
+    width: 13px;
+    height: 13px;
+    background-position: -623px -2px;
+}

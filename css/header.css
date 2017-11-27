@@ -1,0 +1,209 @@
+header {
+    padding-top: 13px
+}
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.header__row:before,
+.header__row:after {
+    display: none
+}
+.header__left {
+    display: flex;
+    align-items: center;
+    padding-right: 20px
+}
+.header__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    flex-grow: 1
+}
+.header__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-flow: 1;
+    padding-left: 20px
+}
+.header__right .bt-big {
+    margin-bottom: 13px;
+}
+.ico-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center
+}
+.ico-buttons__link {
+    display: block;
+    position: relative;
+}
+.ico-buttons__link[data-number]:before {
+    content: attr(data-number);
+    position: absolute;
+    top: -3px; right: -3px;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px; height: 20px;
+    line-height: 19px;
+    background-color: #ea0000;
+    font-size: 11px;
+    text-align: center;
+}
+.info-menu {
+    width: 100%;
+    padding-bottom: 13px;
+}
+.info-menu__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.info-menu__link {
+    font-size: 14px
+}
+
+.search {
+    padding-bottom: 13px
+}
+.search .input-group {
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #48a3cd;
+}
+.search .input-group-addon {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+.search .form-control {
+    border: 0;
+    height: 32px;
+    box-shadow: none;
+}
+.search .input-group-btn {
+    border-left:1px solid #48a3cd;
+}
+.search .input-group-btn .bt {
+    border-radius: 0;
+    width: 103px;
+}
+.search .input-group-btn .bt:before {
+    border-radius: 0 5px 5px 0
+}
+
+.top-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.top-contacts__left {
+
+}
+.top-contacts__right {
+    flex-flow: 1
+}
+.top-contacts__right .bt {
+    text-shadow: none;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-contacts__right .bt .sprite {
+    margin-right: 5px
+}
+.top-contacts__content strong {
+    font-weight: 700
+}
+.top-contacts__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-contacts__row:first-of-type {
+    margin-bottom: 2px
+}
+.top-contacts__item {
+    display: flex;
+    align-items: center;
+    margin-right: 5px
+}
+.top-contacts__aside {
+    width: 17px;
+}
+
+.main-menu {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    border-top: 1px solid #429bc4;
+    border-bottom: 1px solid #429bc4;
+    background-image: linear-gradient(to top, #3184ab, #5abbe8);
+}
+.main-menu:before,
+.main-menu:after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    height: 1px;
+}
+.main-menu:before {
+    top: 0;
+    background-color: #c9e9f7;
+}
+.main-menu:after {
+    bottom: 0;
+    background-color: #429bc4;
+}
+.main-menu__inner {
+    display: flex;
+    position: relative;
+    z-index: 1
+}
+.main-menu__item {
+    flex:1 1 100px;
+}
+.main-menu__link {
+    display: flex;
+    width: 100%; height: 40px;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #fff;
+}
+.main-menu__link:hover {
+    color: #fff;
+    text-decoration: none
+}
+.main-menu__item {
+    border-left: 1px solid #429bc4;
+}
+.main-menu__item:last-of-type {
+    border-right: 1px solid #67b8dd;
+}
+.main-menu__link {
+    position: relative;
+    padding: 0 10px;
+    border-left: 1px solid #67b8dd;
+}
+.main-menu__link:hover,
+.main-menu__link.active {
+    background-image: linear-gradient(to top, #1e6484, #389bc9);
+}
+.main-menu__link:hover:before,
+.main-menu__link.active:before {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    height: 1px;
+    background-color: #7bbddb;
+}
+.main-menu__item:last-of-type .main-menu__link {
+    border-right: 1px solid #429bc4;
+}

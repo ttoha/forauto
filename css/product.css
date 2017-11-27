@@ -1,0 +1,117 @@
+.product-slider {
+    margin: 0 -7px 30px;
+}
+.product-slider__item {
+    padding: 0 7px;
+}
+
+.product {
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 24px 14px 10px;
+    position: relative;
+}
+.product__action {
+    position: absolute;
+    left: 14px; top: 5px;
+    color: #ed2323;
+}
+.product__inner {}
+.product__img {
+    width: 100%;
+    margin-bottom: 5px
+}
+.product__img-inner {
+    height: 210px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.product:hover .product__img-inner {
+    background-color: #e6e6e6
+}
+.product .product__img a:hover {
+    text-decoration: none
+}
+.product__img figcaption {
+    font-size: 14px;
+}
+.product__labels {
+    position: absolute;
+    width: 126px;
+    left: -6px; top: 30px;
+}
+.product__label {
+    text-align: center;
+    font-family: "Arial";
+    text-transform: uppercase;
+    color: #fff;
+    padding: 5px 0 8px;
+}
+.product__label--action {
+    background: transparent url('../img/label_red.png') no-repeat left top
+}
+.product__price {
+    display: flex;
+    justify-content: space-between
+}
+.product__price--left {
+    flex-grow: 1;
+}
+.product__price--right {
+    width: 100%;
+    max-width: 93px
+}
+.product__price--right .bt-second {
+    margin-bottom: 5px;
+}
+.product-cost {
+    font-family: "Arial";
+}
+.product-cost__main {
+    color: #43be36;
+    height: 40px;
+    display: flex;
+    align-items: baseline;
+    padding-top: 6px;
+}
+.product-cost__main .product-cost__title {
+    font-weight: 600;
+    font-size: 22px;
+}
+.product-cost__main .product-cost__cur {
+    font-size: 12px;
+    padding-left: 3px
+}
+.product-cost__old {
+    color: #ff0101;
+    display: flex;
+    align-items: baseline;
+}
+.product-cost__old .product-cost__title {
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+}
+.product-cost__old .product-cost__title:before {
+    content: '';
+    position: absolute;
+    left: 0; right: 0; top: 50%;
+    height: 1px;
+    background-color: #ff0101;
+}
+.product-cost__old .product-cost__cur {
+    font-size: 12px;
+    padding-left: 3px
+}
+
+.product__available {
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+}
+.product__available .sprite {
+    margin-right: 5px
+}

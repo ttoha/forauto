@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Forauto</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script
+			  src="https://code.jquery.com/jquery-2.2.4.min.js"
+			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+			  crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <div class="header__row container">
+            <div class="header__left">
+                <div class="logo">
+                    <a href="/" title="FORAUTO">
+                        <img src="img/logo.png" alt="FORAUTO" />
+                    </a>
+                </div>
+            </div>
+            <div class="header__center">
+                <nav class="info-menu">
+                    <ul class="info-menu__inner">
+                        <li class="info-menu__item">
+                            <a href="#" class="info-menu__link" title="Доставка">Доставка</a>
+                        </li>
+                        <li class="info-menu__item">
+                            <a href="#" class="info-menu__link" title="Оплата">Оплата</a>
+                        </li>
+                        <li class="info-menu__item">
+                            <a href="#" class="info-menu__link" title="Гарантия и сервис">Гарантия и сервис</a>
+                        </li>
+                        <li class="info-menu__item info-menu__item--bullet">
+                            <span class="sprite sprite-dot_blue"></span>
+                        </li>
+                        <li class="info-menu__item">
+                            <a href="#" class="info-menu__link" title="Акции">Акции</a>
+                        </li>
+                        <li class="info-menu__item">
+                            <a href="#" class="info-menu__link" title="Новости">Новости</a>
+                        </li>
+                        <li class="info-menu__item">
+                            <a href="#" class="info-menu__link" title="Статьи">Статьи</a>
+                        </li>
+                        <li class="info-menu__item info-menu__item--bullet">
+                            <span class="sprite sprite-dot_blue"></span>
+                        </li>
+                        <li class="info-menu__item">
+                            <a href="#" class="info-menu__link" title="Контакты">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form action="#" class="search">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <span class="sprite sprite-search"></span>
+                        </span>
+                        <input class="form-control" placeholder="" aria-label="" type="text" />
+                        <span class="input-group-btn">
+                            <button class="bt bt-blue" type="submit">Найти</button>
+                        </span>
+                    </div>
+                </form>
+                <div class="top-contacts">
+                    <div class="top-contacts__left">
+                        <div class="top-contacts__row">
+                            <div class="top-contacts__item">
+                                <div class="top-contacts__aside">
+                                    <span class="sprite sprite-phone"></span>
+                                </div>
+                                <div class="top-contacts__content">
+                                    <strong>(044) 123-45-67</strong>
+                                </div>
+                            </div>
+                            <div class="top-contacts__item">
+                                <div class="top-contacts__aside">
+                                    <span class="sprite sprite-kievstar"></span>
+                                </div>
+                                <div class="top-contacts__content">
+                                    <strong>(067) 123-45-67</strong>
+                                </div>
+                            </div>
+                            <div class="top-contacts__item">
+                                <div class="top-contacts__aside">
+                                    <span class="sprite sprite-vodafone"></span>
+                                </div>
+                                <div class="top-contacts__content">
+                                    <strong>(050) 123-45-67</strong>
+                                </div>
+                            </div>
+                            <div class="top-contacts__item">
+                                <div class="top-contacts__aside">
+                                    <span class="sprite sprite-lifecell"></span>
+                                </div>
+                                <div class="top-contacts__content">
+                                    <strong>(093) 824-33-05</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="top-contacts__row">
+                            <div class="top-contacts__item">
+                                <div class="top-contacts__aside">
+                                    <span class="sprite sprite-clock"></span>
+                                </div>
+                                <div class="top-contacts__content">
+                                    Пн-Пт 9:00-19:00   /   Сб-Вс выходные   /   Прием заказов онлайн - круглосуточно
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-contacts__right">
+                        <a class="bt bt-blue" href="#" title="Войти в личный кабинет">
+                           <span class="sprite sprite-user"></span>
+                           <span>Войти в личный кабинет</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__right">
+                <a href="#" class="bt-big bt-green">
+                    <div class="bt-inner">
+                        <span class="bt-left">
+                            <span class="bt-top">
+                                999
+                            </span>
+                            <span class="bt-bottom">
+                                товаров
+                            </span>
+                        </span>
+                        <span class="bt-right">
+                            <span class="bt-top">
+                                Корзина
+                            </span>
+                            <span class="bt-bottom">
+                                сумма: 999 999 грн
+                            </span>
+                        </span>
+                    </div>
+                </a>
+                <ul class="ico-buttons">
+                    <li class="ico-buttons__item">
+                        <a href="#" class="ico-buttons__link" data-number="99">
+                           <span class="sprite sprite-compare_color"></span>
+                        </a>
+                    </li>
+                    <li class="ico-buttons__item">
+                        <a href="#" class="ico-buttons__link">
+                           <span class="sprite sprite-heart_color"></span>
+                        </a>
+                    </li>
+                    <li class="ico-buttons__item">
+                        <a href="#" class="ico-buttons__link">
+                           <span class="sprite sprite-clock2_color"></span>
+                        </a>
+                    </li>
+                    <li class="ico-buttons__item">
+                        <a href="#" class="ico-buttons__link">
+                           <span class="sprite sprite-mail"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <nav class="main-menu">
+            <ul class="main-menu__inner container">
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link" title="Навигаторы">
+                        Навигаторы
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link" title="Музыка">
+                        Музыка
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link active" title="Электроника">
+                        Электроника
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link" title="Масла и фильтры">
+                        Масла и фильтры
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link" title="Запчасти">
+                        Запчасти
+                    </a>
+                </li>
+                <li class="main-menu__item">
+                    <a href="#" class="main-menu__link" title="Аксессуары">
+                        Аксессуары
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main-ban__wrap">
+        <div class="container">
+            <div class="main-ban">
+                <div class="main-ban__item">
+                    <a href="#" title="">
+                        <img src="img/content/ban1.png" alt="" />
+                    </a>
+                </div>
+                <div class="main-ban__item">
+                    <a href="#" title="">
+                        <img src="img/content/ban2.png" alt="" />
+                    </a>
+                </div>
+                <div class="main-ban__item">
+                    <a href="#" title="">
+                        <img src="img/content/ban3.png" alt="" />
+                    </a>
+                </div>
+                <div class="main-ban__item">
+                    <a href="#" title="">
+                        <img src="img/content/ban1.png" alt="" />
+                    </a>
+                </div>
+                <div class="main-ban__item">
+                    <a href="#" title="">
+                        <img src="img/content/ban2.png" alt="" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="main-tabs__wrap">
+            <div class="container">
+                <ul class="nav nav-tabs main-tabs nav-justified">
+                    <li class="main-tabs__item active">
+                        <a class="main-tabs__link" href="#tab-action" data-toggle="tab">Акции</a>
+                    </li>
+                    <li class="main-tabs__item">
+                        <a class="main-tabs__link" href="#tab-sale" data-toggle="tab">Распродажа</a>
+                    </li>
+                    <li class="main-tabs__item">
+                        <a class="main-tabs__link" href="#tab-deductible" data-toggle="tab">Уценка</a>
+                    </li>
+                    <li class="main-tabs__item">
+                        <a class="main-tabs__link" href="#tab-hits" data-toggle="tab">Хиты продаж</a>
+                    </li>
+                    <li class="main-tabs__item">
+                        <a class="main-tabs__link" href="#tab-recommended" data-toggle="tab">Рекомендуем</a>
+                    </li>
+                    <li class="main-tabs__item">
+                        <a class="main-tabs__link" href="#tab-news" data-toggle="tab">Новинки</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="tab-content">
+                <div id="tab-action" class="tab-pane fade in active">
+                    <a class="main-tabs__more" href="#" title="Показать все товары раздела «Акции»">
+                       <span class="main-tabs__more-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11"><path d="M49,480l-9,5V475Z" transform="translate(-39.5 -474.5)"/></svg>
+                       </span>
+                       <span class="main-tabs__more-content">Показать все товары раздела «Акции»</span>
+                    </a>
+
+                    <div class="product-slider">
+                        <div class="product-slider__item">
+                            <article class="product">
+                                <div class="product__inner">
+                                    <div class="product__action">Осталось 99 дней</div>
+                                    <div class="product__img">
+                                        <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                            <ul class="product__labels">
+                                                <li class="product__label product__label--action">
+                                                    Акция
+                                                </li>
+                                            </ul>
+                                            <figure>
+                                                <div class="product__img-inner">
+                                                    <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                                </div>
+                                                <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product__price">
+                                        <div class="product__price--left">
+                                            <div class="product-cost">
+                                                <div class="product-cost__main">
+                                                    <span class="product-cost__title">
+                                                        999 999
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                                <div class="product-cost__old">
+                                                    <span class="product-cost__title">
+                                                        30 000
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product__price--right">
+                                            <a href="#" class="bt-second bt-green">
+                                                <div class="bt-inner">
+                                                    Купить
+                                                </div>
+                                            </a>
+                                            <div class="product__available">
+                                                <span class="sprite sprite-dot_green"></span>
+                                                <span>eсть в наличии</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="product-slider__item">
+                            <article class="product">
+                                <div class="product__inner">
+                                    <div class="product__action">Осталось 99 дней</div>
+                                    <div class="product__img">
+                                        <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                            <ul class="product__labels">
+                                                <li class="product__label product__label--action">
+                                                    Акция
+                                                </li>
+                                            </ul>
+                                            <figure>
+                                                <div class="product__img-inner">
+                                                    <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                                </div>
+                                                <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product__price">
+                                        <div class="product__price--left">
+                                            <div class="product-cost">
+                                                <div class="product-cost__main">
+                                                    <span class="product-cost__title">
+                                                        999 999
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                                <div class="product-cost__old">
+                                                    <span class="product-cost__title">
+                                                        30 000
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product__price--right">
+                                            <a href="#" class="bt-second bt-green">
+                                                <div class="bt-inner">
+                                                    Купить
+                                                </div>
+                                            </a>
+                                            <div class="product__available">
+                                                <span class="sprite sprite-dot_green"></span>
+                                                <span>eсть в наличии</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="product-slider__item">
+                            <article class="product">
+                                <div class="product__inner">
+                                    <div class="product__action">Осталось 99 дней</div>
+                                    <div class="product__img">
+                                        <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                            <ul class="product__labels">
+                                                <li class="product__label product__label--action">
+                                                    Акция
+                                                </li>
+                                            </ul>
+                                            <figure>
+                                                <div class="product__img-inner">
+                                                    <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                                </div>
+                                                <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product__price">
+                                        <div class="product__price--left">
+                                            <div class="product-cost">
+                                                <div class="product-cost__main">
+                                                    <span class="product-cost__title">
+                                                        999 999
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                                <div class="product-cost__old">
+                                                    <span class="product-cost__title">
+                                                        30 000
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product__price--right">
+                                            <a href="#" class="bt-second bt-green">
+                                                <div class="bt-inner">
+                                                    Купить
+                                                </div>
+                                            </a>
+                                            <div class="product__available">
+                                                <span class="sprite sprite-dot_green"></span>
+                                                <span>eсть в наличии</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="product-slider__item">
+                            <article class="product">
+                                <div class="product__inner">
+                                    <div class="product__action">Осталось 99 дней</div>
+                                    <div class="product__img">
+                                        <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                            <ul class="product__labels">
+                                                <li class="product__label product__label--action">
+                                                    Акция
+                                                </li>
+                                            </ul>
+                                            <figure>
+                                                <div class="product__img-inner">
+                                                    <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                                </div>
+                                                <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product__price">
+                                        <div class="product__price--left">
+                                            <div class="product-cost">
+                                                <div class="product-cost__main">
+                                                    <span class="product-cost__title">
+                                                        999 999
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                                <div class="product-cost__old">
+                                                    <span class="product-cost__title">
+                                                        30 000
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product__price--right">
+                                            <a href="#" class="bt-second bt-green">
+                                                <div class="bt-inner">
+                                                    Купить
+                                                </div>
+                                            </a>
+                                            <div class="product__available">
+                                                <span class="sprite sprite-dot_green"></span>
+                                                <span>eсть в наличии</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="product-slider__item">
+                            <article class="product">
+                                <div class="product__inner">
+                                    <div class="product__action">Осталось 99 дней</div>
+                                    <div class="product__img">
+                                        <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                            <ul class="product__labels">
+                                                <li class="product__label product__label--action">
+                                                    Акция
+                                                </li>
+                                            </ul>
+                                            <figure>
+                                                <div class="product__img-inner">
+                                                    <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                                </div>
+                                                <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product__price">
+                                        <div class="product__price--left">
+                                            <div class="product-cost">
+                                                <div class="product-cost__main">
+                                                    <span class="product-cost__title">
+                                                        999 999
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                                <div class="product-cost__old">
+                                                    <span class="product-cost__title">
+                                                        30 000
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product__price--right">
+                                            <a href="#" class="bt-second bt-green">
+                                                <div class="bt-inner">
+                                                    Купить
+                                                </div>
+                                            </a>
+                                            <div class="product__available">
+                                                <span class="sprite sprite-dot_green"></span>
+                                                <span>eсть в наличии</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="product-slider__item">
+                            <article class="product">
+                                <div class="product__inner">
+                                    <div class="product__action">Осталось 99 дней</div>
+                                    <div class="product__img">
+                                        <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                            <ul class="product__labels">
+                                                <li class="product__label product__label--action">
+                                                    Акция
+                                                </li>
+                                            </ul>
+                                            <figure>
+                                                <div class="product__img-inner">
+                                                    <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                                </div>
+                                                <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="product__price">
+                                        <div class="product__price--left">
+                                            <div class="product-cost">
+                                                <div class="product-cost__main">
+                                                    <span class="product-cost__title">
+                                                        999 999
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                                <div class="product-cost__old">
+                                                    <span class="product-cost__title">
+                                                        30 000
+                                                    </span>
+                                                    <span class="product-cost__cur">
+                                                        грн
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product__price--right">
+                                            <a href="#" class="bt-second bt-green">
+                                                <div class="bt-inner">
+                                                    Купить
+                                                </div>
+                                            </a>
+                                            <div class="product__available">
+                                                <span class="sprite sprite-dot_green"></span>
+                                                <span>eсть в наличии</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-sale" class="tab-pane fade">
+                <h3>Menu 1</h3>
+                <p>Some content in menu 1.</p>
+                </div>
+                <div id="tab-deductible" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Some content in menu 2.</p>
+                </div>
+                <div id="tab-hits" class="tab-pane fade">
+                <h3>Menu 1</h3>
+                <p>Some content in menu 1.</p>
+                </div>
+                <div id="tab-recommended" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Some content in menu 2.</p>
+                </div>
+                <div id="tab-news" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Some content in menu 2.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container articles">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="section-title">
+                        <span class="section-title__inner">Новости</span>
+                        <a class="main-tabs__more" href="#" title="Показать все товары раздела «Акции»">
+                       <span class="main-tabs__more-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11"><path d="M49,480l-9,5V475Z" transform="translate(-39.5 -474.5)"/></svg>
+                       </span>
+                       <span class="main-tabs__more-content">Показать все новости</span>
+                    </a>
+                    </h3>
+                </div>
+                <div class="col-xs-12 col-md-6 article__wrap">
+                    <article class="article">
+                            <div class="article__img-conteiner">
+                                <img src="img/content/news1.png" alt="">
+                            </div>
+                            <div class="article__content-conteiner">
+                                <div class="article__title">
+                                    <a href="#" class="article__link" title="Последние разработки в этой области все больше приближают концепцию умного дома">
+                                        Последние разработки в этой области все больше приближают концепцию умного дома
+                                    </a>
+                                </div>
+                                <div class="article__date">1 января 2000</div>
+                                <div class="article__content">
+                                    Последние разработки в этой области все больше приближают концепцию умного дома к тем принципам, по которым функционируют живые организмы. Последние разработки в этой области все больше...
+                                </div>
+                            </div>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-md-6 article__wrap">
+                    <article class="article">
+                            <div class="article__img-conteiner">
+                                <img src="img/content/news2.png" alt="">
+                            </div>
+                            <div class="article__content-conteiner">
+                                <div class="article__title">
+                                    <a href="#" class="article__link" title="Что такое умный дом">
+                                        Что такое умный дом
+                                    </a>
+                                </div>
+                                <div class="article__date">1 января 2000</div>
+                                <div class="article__content">
+                                    Последние разработки в этой области все больше приближают концепцию умного дома к тем принципам, по которым функционируют живые организмы. Последние разработки в этой области все больше приближают концепцию умного дома к тем принципам...
+                                </div>
+                            </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="container articles">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="section-title">
+                        <span class="section-title__inner">Статьи</span>
+                        <a class="main-tabs__more" href="#" title="Показать все товары раздела «Акции»">
+                       <span class="main-tabs__more-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11"><path d="M49,480l-9,5V475Z" transform="translate(-39.5 -474.5)"/></svg>
+                       </span>
+                       <span class="main-tabs__more-content">Показать все статьи</span>
+                    </a>
+                    </h3>
+                </div>
+                <div class="col-xs-12 col-md-6 article__wrap">
+                    <article class="article">
+                            <div class="article__img-conteiner">
+                                <img src="img/content/news3.png" alt="">
+                            </div>
+                            <div class="article__content-conteiner">
+                                <div class="article__title">
+                                    <a href="#" class="article__link" title="Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель">
+                                        Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель
+                                    </a>
+                                </div>
+                                <div class="article__content">
+                                    Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель M5s в металлическом корпусе. Устройство будет доступно в двух модификациях: с объемом встроенной памяти 16 и 32 ГБ. Компания Meizu подготовила к выпуску новый смартфон — бюджетную...
+                                </div>
+                            </div>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-md-6 article__wrap">
+                    <article class="article">
+                            <div class="article__img-conteiner">
+                                <img src="img/content/news4.png" alt="">
+                            </div>
+                            <div class="article__content-conteiner">
+                                <div class="article__title">
+                                    <a href="#" class="article__link" title="Как выбрать кресло-мешок">
+                                        Как выбрать кресло-мешок
+                                    </a>
+                                </div>
+                                <div class="article__content">
+                                    Кресло-мешок (другие названия – кресло-груша, мешок с фасолью, бинбэг или тюфяк) – это мебель без жесткого каркаса, которая повторяет анатомические изгибы человека под его весом. При этом тело в кресле максимально расслаблено, а при правильном выборе высоты садиться и вставать с него можно без особых усилий...
+                                </div>
+                            </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="container articles">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="section-title">
+                        <span class="section-title__inner">Акции</span>
+                        <a class="main-tabs__more" href="#" title="Показать все товары раздела «Акции»">
+                       <span class="main-tabs__more-icon">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11"><path d="M49,480l-9,5V475Z" transform="translate(-39.5 -474.5)"/></svg>
+                       </span>
+                       <span class="main-tabs__more-content">Показать все акции</span>
+                    </a>
+                    </h3>
+                </div>
+                <div class="col-xs-12 col-md-6 article__wrap">
+                    <article class="article">
+                            <div class="article__img-conteiner">
+                                <img src="img/content/action1.png" alt="">
+                            </div>
+                            <div class="article__content-conteiner">
+                                <div class="article__title">
+                                    <a href="#" class="article__link" title="Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель M5s">
+                                        Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель M5s
+                                    </a>
+                                </div>
+                                <div class="article__date article__date--red">1 января 2000</div>
+                                <div class="article__content">
+                                    Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель M5s в металлическом корпусе. Устройство будет доступно в двух модификациях: с объемом встроенной памяти 16 и 32 ГБ. Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель M5s в металлическом корпусе. Устройство будет доступно в двух модификациях: с объемом встроенной памяти...
+                                </div>
+                            </div>
+                    </article>
+                </div>
+                <div class="col-xs-12 col-md-6 article__wrap">
+                    <article class="article">
+                            <div class="article__img-conteiner">
+                                <img src="img/content/action2.png" alt="">
+                            </div>
+                            <div class="article__content-conteiner">
+                                <div class="article__title">
+                                    <a href="#" class="article__link" title="Акция! Кулон с бриллиантом за 1399 грн!">
+                                        Акция! Кулон с бриллиантом за 1399 грн!
+                                    </a>
+                                </div>
+                                <div class="article__date article__date--red">1 января 2000</div>
+                                <div class="article__content">
+                                    Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель M5s в металлическом корпусе. Устройство будет доступно в двух модификациях: с объемом встроенной памяти 16 и 32 ГБ. Компания Meizu подготовила к выпуску новый смартфон — бюджетную модель M5s в металлическом корпусе. Устройство будет доступно в двух модификациях: с объемом встроенной памяти 16 и 32 ГБ. Компания Meizu. Компания Meizu подготовила...
+                                </div>
+                            </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section>
+       <div class="container">
+           <div class="row">
+               <div class="col-xs-12">
+                   <div class="seo-text">
+                       <h1>Интернет магазин Forauto</h1>
+                       <div>
+                           <p>Вас интересует бытовая техника, компьютеры, софт или товары для активного отдыха? Все это вы можете купить прямо сейчас, сэкономив уйму времени! Интернет-магазин Rozetka™ с радостью поможет вам избежать необходимости посещать десятки магазинов. Вы можете заказать любой товар, не вставая со своего кресла, а наш курьер вовремя доставит покупку по указанному адресу. Интернет магазин (Украина) Rozetka™ действует на территории всей страны. Жители любых городов могут без лишних хлопот посетить наш интернет-магазин (Харьков, Киев и другие города).</p>
+                           <p>Вне зависимости от того, где вы находитесь на данный момент, вы сможете заказать товар, что, согласитесь, очень удобно. Какие же преимущества предлагает наш интернет-магазин электроники, телефонов и прочих товаров? Наиболее существенный факт – наличие тысяч позиций, которые гарантированно имеются на складе. Вы сможете посетить наш интернет магазин и купить любые товары по невысокой цене. Вам необходим холодильник, стиральная машина или микроволновая печь?</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <section>
+       <div class="container">
+            <h3 class="section-title section-title__second">
+                <span class="section-title__inner">Просмотренные товары</span>
+                <a class="main-tabs__more" href="#" title="Показать все просмотренные товары">
+               <span class="main-tabs__more-icon">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11"><path d="M49,480l-9,5V475Z" transform="translate(-39.5 -474.5)"/></svg>
+               </span>
+               <span class="main-tabs__more-content">Показать все просмотренные товары</span>
+            </a>
+            </h3>
+            <div class="product-slider">
+                <div class="product-slider__item">
+                    <article class="product">
+                        <div class="product__inner">
+                            <div class="product__action">Осталось 99 дней</div>
+                            <div class="product__img">
+                                <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                    <ul class="product__labels">
+                                        <li class="product__label product__label--action">
+                                            Акция
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <div class="product__img-inner">
+                                            <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                        </div>
+                                        <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="product__price">
+                                <div class="product__price--left">
+                                    <div class="product-cost">
+                                        <div class="product-cost__main">
+                                            <span class="product-cost__title">
+                                                999 999
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                        <div class="product-cost__old">
+                                            <span class="product-cost__title">
+                                                30 000
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__price--right">
+                                    <a href="#" class="bt-second bt-green">
+                                        <div class="bt-inner">
+                                            Купить
+                                        </div>
+                                    </a>
+                                    <div class="product__available">
+                                        <span class="sprite sprite-dot_green"></span>
+                                        <span>eсть в наличии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="product-slider__item">
+                    <article class="product">
+                        <div class="product__inner">
+                            <div class="product__action">Осталось 99 дней</div>
+                            <div class="product__img">
+                                <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                    <ul class="product__labels">
+                                        <li class="product__label product__label--action">
+                                            Акция
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <div class="product__img-inner">
+                                            <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                        </div>
+                                        <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="product__price">
+                                <div class="product__price--left">
+                                    <div class="product-cost">
+                                        <div class="product-cost__main">
+                                            <span class="product-cost__title">
+                                                999 999
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                        <div class="product-cost__old">
+                                            <span class="product-cost__title">
+                                                30 000
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__price--right">
+                                    <a href="#" class="bt-second bt-green">
+                                        <div class="bt-inner">
+                                            Купить
+                                        </div>
+                                    </a>
+                                    <div class="product__available">
+                                        <span class="sprite sprite-dot_green"></span>
+                                        <span>eсть в наличии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="product-slider__item">
+                    <article class="product">
+                        <div class="product__inner">
+                            <div class="product__action">Осталось 99 дней</div>
+                            <div class="product__img">
+                                <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                    <ul class="product__labels">
+                                        <li class="product__label product__label--action">
+                                            Акция
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <div class="product__img-inner">
+                                            <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                        </div>
+                                        <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="product__price">
+                                <div class="product__price--left">
+                                    <div class="product-cost">
+                                        <div class="product-cost__main">
+                                            <span class="product-cost__title">
+                                                999 999
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                        <div class="product-cost__old">
+                                            <span class="product-cost__title">
+                                                30 000
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__price--right">
+                                    <a href="#" class="bt-second bt-green">
+                                        <div class="bt-inner">
+                                            Купить
+                                        </div>
+                                    </a>
+                                    <div class="product__available">
+                                        <span class="sprite sprite-dot_green"></span>
+                                        <span>eсть в наличии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="product-slider__item">
+                    <article class="product">
+                        <div class="product__inner">
+                            <div class="product__action">Осталось 99 дней</div>
+                            <div class="product__img">
+                                <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                    <ul class="product__labels">
+                                        <li class="product__label product__label--action">
+                                            Акция
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <div class="product__img-inner">
+                                            <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                        </div>
+                                        <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="product__price">
+                                <div class="product__price--left">
+                                    <div class="product-cost">
+                                        <div class="product-cost__main">
+                                            <span class="product-cost__title">
+                                                999 999
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                        <div class="product-cost__old">
+                                            <span class="product-cost__title">
+                                                30 000
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__price--right">
+                                    <a href="#" class="bt-second bt-green">
+                                        <div class="bt-inner">
+                                            Купить
+                                        </div>
+                                    </a>
+                                    <div class="product__available">
+                                        <span class="sprite sprite-dot_green"></span>
+                                        <span>eсть в наличии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="product-slider__item">
+                    <article class="product">
+                        <div class="product__inner">
+                            <div class="product__action">Осталось 99 дней</div>
+                            <div class="product__img">
+                                <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                    <ul class="product__labels">
+                                        <li class="product__label product__label--action">
+                                            Акция
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <div class="product__img-inner">
+                                            <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                        </div>
+                                        <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="product__price">
+                                <div class="product__price--left">
+                                    <div class="product-cost">
+                                        <div class="product-cost__main">
+                                            <span class="product-cost__title">
+                                                999 999
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                        <div class="product-cost__old">
+                                            <span class="product-cost__title">
+                                                30 000
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__price--right">
+                                    <a href="#" class="bt-second bt-green">
+                                        <div class="bt-inner">
+                                            Купить
+                                        </div>
+                                    </a>
+                                    <div class="product__available">
+                                        <span class="sprite sprite-dot_green"></span>
+                                        <span>eсть в наличии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="product-slider__item">
+                    <article class="product">
+                        <div class="product__inner">
+                            <div class="product__action">Осталось 99 дней</div>
+                            <div class="product__img">
+                                <a href="#" title="Видеорегистратор Prestigio RoadRunner 133">
+                                    <ul class="product__labels">
+                                        <li class="product__label product__label--action">
+                                            Акция
+                                        </li>
+                                    </ul>
+                                    <figure>
+                                        <div class="product__img-inner">
+                                            <img src="img/content/product1.png" alt="Видеорегистратор Prestigio RoadRunner 133" />
+                                        </div>
+                                        <figcaption>Видеорегистратор Prestigio RoadRunner 133</figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="product__price">
+                                <div class="product__price--left">
+                                    <div class="product-cost">
+                                        <div class="product-cost__main">
+                                            <span class="product-cost__title">
+                                                999 999
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                        <div class="product-cost__old">
+                                            <span class="product-cost__title">
+                                                30 000
+                                            </span>
+                                            <span class="product-cost__cur">
+                                                грн
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product__price--right">
+                                    <a href="#" class="bt-second bt-green">
+                                        <div class="bt-inner">
+                                            Купить
+                                        </div>
+                                    </a>
+                                    <div class="product__available">
+                                        <span class="sprite sprite-dot_green"></span>
+                                        <span>eсть в наличии</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+       </div>
+   </section>
+
+
+    <div id="modal-basket" class="modal-basket modal fade" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <span class="modal_close" data-dismiss="modal" aria-hidden="true">&times;</span>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3 class="modal-title">
+                        Товар добавлен в корзину!
+                    </h3>
+                    <span class="modal-sub-title">
+                        Всего в корзине 2 товара
+                    </span>
+                    <div class="container-fluid busket-content">
+                        <div class="row">
+                            <div class="busket-item clearfix">
+                                <div class="col-sm-2 hidden-xs">
+                                    <div class="busket-item-img">
+                                        <figure>
+                                            <img src="img/content/product1.png" alt="Название товара в две строки Мышь LF-GM 045 USB">
+                                        </figure>
+                                        <a href="#" class="del" title="Удалить">Удалить</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-7 col-sm-5 busket-title-wrap">
+                                    <div class="busket-item-title">
+                                        Название товара в две строки Мышь LF-GM 045 USB
+                                        <a href="#" class="del visible-xs" title="Удалить">Удалить</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-2 nopad">
+                                    <div class="busket-amount">
+                                        <a href="#" class="busket-amount-minus">
+                                            <span></span>
+                                        </a>
+                                        <input type="text" value="1" class="busket-amount-text" />
+                                        <a href="#" class="busket-amount-plus">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 product-price-wrap">
+                                    <div class="product-price">
+                                        <span class="oldprice">4360</span>
+                                        <span class="price"><strong>2760</strong>грн.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="busket-item clearfix">
+                                <div class="col-sm-2 hidden-xs">
+                                    <div class="busket-item-img">
+                                        <figure>
+                                            <img src="img/content/product1.png" alt="Название товара в две строки Мышь LF-GM 045 USB">
+                                        </figure>
+                                        <a href="#" class="del" title="Удалить">Удалить</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-7 col-sm-5 busket-title-wrap">
+                                    <div class="busket-item-title">
+                                        Название товара в две строки Мышь LF-GM 045 USB
+                                        <a href="#" class="del visible-xs" title="Удалить">Удалить</a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-2 nopad">
+                                    <div class="busket-amount">
+                                        <a href="#" class="busket-amount-minus">
+                                            <span></span>
+                                        </a>
+                                        <input type="text" value="1" class="busket-amount-text" />
+                                        <a href="#" class="busket-amount-plus">
+                                            <span></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 product-price-wrap">
+                                    <div class="product-price">
+                                        <span class="oldprice">4360</span>
+                                        <span class="price"><strong>2760</strong>грн.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <a href="#" class="bt-black" title="Оформить заказ"><span>Оформить заказ</span></a>
+                            </div>
+                            <div class="col-xs-6">
+                                <a href="#" class="bt-black" title="продолжить покупки"><span>продолжить покупки</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-login" class="modal-form modal fade" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <span class="modal_close" data-dismiss="modal" aria-hidden="true">&times;</span>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3 class="modal-title">
+                        Вход в личный кабинет
+                    </h3>
+                    <div class="container-fluid form-content">
+                        <div class="row">
+                            <form action="#">
+                                <div class="input-wrap with-tooltip">
+                                    <div class="fake-input">
+                                        Логин<span>*</span>
+                                    </div>
+                                    <input type="text" value="" />
+                                    <button type="button" data-toggle="tooltip" data-placement="right" title="Ваша электронная почта будет служить логином для входа в личный кабинет."></button>
+                                </div>
+                                <div class="input-wrap">
+                                    <div class="fake-input">
+                                        Пароль<span>*</span>
+                                    </div>
+                                    <input type="password" value="" />
+                                </div>
+                                <input type="submit" value="Войти" class="bt-black">
+                            </form>
+                            <div class="bottom-links">
+                                <p>
+                                    <a href="#" title="Я забыл свой пароль, что мне делать?">
+                                        Я забыл свой пароль, что мне делать?
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="#" id="registration" title="Регистрация">
+                                        Регистрация
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="social-login">
+                                <div class="social-login-title">Войти через соцсети</div>
+
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="img/fblogin.png" alt="" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="img/gplogin.png" alt="" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-registration" class="modal-form modal fade" tabindex="-1">
+        <div class="modal-dialog" role="document">
+            <span class="modal_close" data-dismiss="modal" aria-hidden="true">&times;</span>
+            <div class="modal-content">
+                <div class="modal-body">
+                    <h3 class="modal-title">
+                        Регистрация на сайте
+                    </h3>
+                    <div class="container-fluid form-content">
+                        <div class="row">
+                            <form action="#">
+                                <div class="input-wrap">
+                                    <div class="fake-input">
+                                        Имя<span>*</span>
+                                    </div>
+                                    <input type="text" value="" />
+                                </div>
+                                <div class="input-wrap">
+                                    <div class="fake-input">
+                                        Фамилия<span>*</span>
+                                    </div>
+                                    <input type="text" value="" />
+                                </div>
+                                <div class="input-wrap with-tooltip">
+                                    <div class="fake-input">
+                                        Электронная почта<span>*</span>
+                                    </div>
+                                    <input type="text" value="" />
+                                    <button type="button" data-toggle="tooltip" data-placement="right" title="Ваша электронная почта будет служить логином для входа в личный кабинет."></button>
+                                </div>
+                                <div class="input-wrap">
+                                    <div class="fake-input">
+                                        Пароль<span>*</span>
+                                    </div>
+                                    <input type="password" value="" />
+                                </div>
+                                <div class="input-wrap">
+                                    <div class="fake-input">
+                                        Повторите пароль<span>*</span>
+                                    </div>
+                                    <input type="password" value="" />
+                                </div>
+                                <input type="submit" value="зарегистрироваться" class="bt-black">
+                            </form>
+                            <div class="social-login">
+                                <div class="social-login-title">Регистрация через соцсети</div>
+                                <ul>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="img/fblogin.png" alt="" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="">
+                                            <img src="img/gplogin.png" alt="" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+    <script src="js/functions.js" type="text/javascript"></script>
+</body>
+</html>
