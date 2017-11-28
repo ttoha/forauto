@@ -1,0 +1,37 @@
+footer {
+    background-color: #3387ae;
+    border-bottom: 3px solid #125675;
+    color: #fff;
+    padding: 30px 0
+}
+footer a {
+    color: #fff
+}
+footer a:hover {
+    color: #fff
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between
+}
+.footer__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px
+}
+.footer__ico {
+    width: 20px;
+}
+.footer__ico svg {
+    stroke:#fff;
+    fill:#3387ae;
+}
+
+.footer__copy {
+    font-size: 14px;
+    font-family: "Arial";
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between
+}
