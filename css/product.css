@@ -115,3 +115,26 @@
 .product__available .sprite {
     margin-right: 5px
 }
+.product__extra {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center
+}
+.product__extra-right {
+    display: flex;
+    width: 90px;
+    justify-content: space-between
+}
+
+.ratings {
+    display: flex;
+    margin-bottom: 5px
+}
+.ratings__item {
+    margin-right: 1px
+}
+.ratings__link {
+    font-size: 12px;
+    color: #3286ad
+}
