@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .product:hover .product__img-inner {
     background-color: #e6e6e6
@@ -37,6 +37,7 @@
 }
 .product__img figcaption {
     font-size: 14px;
+    line-height: 17px
 }
 .product__labels {
     position: absolute;
@@ -117,7 +118,7 @@
 }
 .product__extra {
     display: flex;
-    padding-top: 10px;
+    padding-top: 5px;
     justify-content: space-between;
     align-items: center
 }
