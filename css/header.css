@@ -4,7 +4,7 @@ header {
 .header__row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
+    margin-bottom: 11px;
 }
 .header__row:before,
 .header__row:after {
@@ -19,7 +19,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 24px 0 20px;
     flex-grow: 1
 }
 .header__right {

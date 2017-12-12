@@ -13,7 +13,7 @@
 }
 .product__action {
     position: absolute;
-    left: 14px; top: 5px;
+    left: 14px; top: 8px;
     color: #ed2323;
 }
 .product__inner {}
