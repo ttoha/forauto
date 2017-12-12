@@ -2,7 +2,12 @@
     border-bottom: 1px solid #96c8df;
     margin-bottom: 13px;
 }
-.main-tabs {}
+.main-tabs {
+    display: flex;
+}
+.main-tabs__item {
+    flex: 1 1 100px;
+}
 .main-tabs__item:not(:last-of-type) {
     padding-right: 1px
 }
