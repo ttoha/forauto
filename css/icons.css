@@ -35,110 +35,164 @@
     background-position: -120px -2px;
 }
 
+.sprite-clock2_grey {
+    width: 25px;
+    height: 35px;
+    background-position: -149px -2px;
+}
+
 .sprite-compare {
     width: 34px;
     height: 28px;
-    background-position: -149px -2px;
+    background-position: -178px -2px;
+}
+
+.sprite-compare-active {
+    width: 34px;
+    height: 28px;
+    background-position: -216px -2px;
+}
+
+.sprite-compare-active_hover {
+    width: 34px;
+    height: 28px;
+    background-position: -254px -2px;
 }
 
 .sprite-compare_color {
     width: 43px;
     height: 35px;
-    background-position: -187px -2px;
+    background-position: -292px -2px;
+}
+
+.sprite-compare_grey {
+    width: 43px;
+    height: 35px;
+    background-position: -339px -2px;
+}
+
+.sprite-compare_hover {
+    width: 34px;
+    height: 28px;
+    background-position: -386px -2px;
 }
 
 .sprite-dot_blue {
     width: 9px;
     height: 9px;
-    background-position: -234px -2px;
+    background-position: -424px -2px;
 }
 
 .sprite-dot_green {
     width: 9px;
     height: 9px;
-    background-position: -247px -2px;
+    background-position: -437px -2px;
 }
 
 .sprite-heart {
     width: 32px;
     height: 28px;
-    background-position: -260px -2px;
+    background-position: -450px -2px;
+}
+
+.sprite-heart-active {
+    width: 32px;
+    height: 28px;
+    background-position: -486px -2px;
+}
+
+.sprite-heart-active_hover {
+    width: 32px;
+    height: 28px;
+    background-position: -522px -2px;
 }
 
 .sprite-heart_color {
     width: 40px;
     height: 35px;
-    background-position: -296px -2px;
+    background-position: -558px -2px;
+}
+
+.sprite-heart_grey {
+    width: 40px;
+    height: 35px;
+    background-position: -602px -2px;
+}
+
+.sprite-heart_hover {
+    width: 32px;
+    height: 28px;
+    background-position: -646px -2px;
 }
 
 .sprite-kievstar {
     width: 13px;
     height: 14px;
-    background-position: -340px -2px;
+    background-position: -682px -2px;
 }
 
 .sprite-lifecell {
     width: 14px;
     height: 15px;
-    background-position: -357px -2px;
+    background-position: -699px -2px;
 }
 
 .sprite-mail {
     width: 39px;
     height: 35px;
-    background-position: -375px -2px;
+    background-position: -717px -2px;
 }
 
 .sprite-mail2 {
     width: 13px;
     height: 9px;
-    background-position: -418px -2px;
+    background-position: -760px -2px;
 }
 
 .sprite-map {
     width: 32px;
     height: 31px;
-    background-position: -435px -2px;
+    background-position: -777px -2px;
 }
 
 .sprite-phone {
     width: 15px;
     height: 11px;
-    background-position: -471px -2px;
+    background-position: -813px -2px;
 }
 
 .sprite-phone2 {
     width: 14px;
     height: 12px;
-    background-position: -490px -2px;
+    background-position: -832px -2px;
 }
 
 .sprite-pin {
     width: 11px;
     height: 15px;
-    background-position: -508px -2px;
+    background-position: -850px -2px;
 }
 
 .sprite-search {
     width: 49px;
     height: 32px;
-    background-position: -523px -2px;
+    background-position: -865px -2px;
 }
 
 .sprite-star {
     width: 16px;
     height: 16px;
-    background-position: -576px -2px;
+    background-position: -918px -2px;
 }
 
 .sprite-user {
     width: 23px;
     height: 23px;
-    background-position: -596px -2px;
+    background-position: -938px -2px;
 }
 
 .sprite-vodafone {
     width: 13px;
     height: 13px;
-    background-position: -623px -2px;
+    background-position: -965px -2px;
 }

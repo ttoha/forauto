@@ -54,6 +54,21 @@ header {
     font-size: 11px;
     text-align: center;
 }
+.ico-buttons__link span.active {
+    display: none
+}
+.ico-buttons__link:hover span {
+    display: none
+}
+.ico-buttons__link:hover span.active {
+    display: block
+}
+.ico-buttons__link.active span {
+    display: none
+}
+.ico-buttons__link.active span.active {
+    display: block
+}
 .info-menu {
     width: 100%;
     padding-bottom: 10px;
